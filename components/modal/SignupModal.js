@@ -27,7 +27,7 @@ async function handleSignUp() {
 
         await updateProfile(auth.currentUser, {
           displayName: name,
-          photoUrl: `.assets/twitter-profile-images/pfp${Math.ceil(Math.random() * 9)}.png`
+          photoUrl: `.assets/twitter-profile-images/pfp${Math.ceil(Math.random() * 3)}.png`
         })
         router.reload()
 
