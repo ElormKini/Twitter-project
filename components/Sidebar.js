@@ -34,7 +34,7 @@ export default function Sidebar(){
     return (
         <div className=" h-full hidden sm:flex flex-col fixed xl:ml-24">
            
-            <nav className=" h-full xl:space-y-1.5 relative">
+            <nav className=" h-full xl:space-y-1.5 relative mt-3">
             
                 <SidebarLink Icon={HomeIcon} text={"Home"} />
                 <SidebarLink Icon={HashtagIcon} text={"Explore"} />

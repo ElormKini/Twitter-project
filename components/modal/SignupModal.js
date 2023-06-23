@@ -61,7 +61,7 @@ async function handleSignUp() {
 
     return(
         <>
-        <button className="bg-white text-black border rounded-full w-[200px] h-[44px] font-bold hover:bg-[#cbd2d7]"
+        <button className="bg-white text-black border rounded-full w-[200px] h-[44px] font-bold sm:w-[150px] hover:bg-[#cbd2d7]"
         onClick={() => dispatch(openSignupModal())}>
             Sign Up
             </button>
